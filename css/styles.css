@@ -225,6 +225,10 @@ img {
 	color: var(--color-text);
 }
 
+.about__item {
+	flex-basis: calc(100% - 24px) / 3;
+}
+
 .team {
 	background: var(--light-gray);
 }
