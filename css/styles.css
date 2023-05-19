@@ -1,0 +1,181 @@
+:root {
+	--color-accent: #4d5ae5;
+	--accent-dark: #2e2f42;
+	--color-text: #434455;
+	--main-font: "Roboto", sans-serif;
+	--header-font: "Raleway", sans-serif;
+	--color-hover: #404bbf;
+	--light-gray: #f4f4fd;
+	--light-accent: #e7e9fc;
+	--default-white: #ffffff;
+}
+
+body {
+	font-family: var(--main-font);
+	color: var(--color-text);
+	background-color: var(--default-white);
+}
+
+.list {
+	list-style: none;
+}
+
+.btn {
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+	background: var(--color-hover);
+}
+
+.link {
+	color: var(--accent-dark);
+	text-decoration: none;
+}
+.link:hover,
+.link:focus {
+	color: var(--color-hover);
+}
+
+.title {
+	text-align: center;
+	color: var(--accent-dark);
+	text-transform: capitalize;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+}
+
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--accent-dark);
+}
+
+.descr {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-text);
+}
+
+.header {
+	border-bottom: 1px solid var(--light-accent);
+}
+
+.logo {
+	font-family: var(--header-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--color-accent);
+}
+
+.logo__end {
+	color: var(--accent-dark);
+}
+
+.menu a {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.contacts {
+	font-style: normal;
+}
+
+.contacts a {
+	color: inherit;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+
+.hero {
+	background: var(--accent-dark);
+}
+
+.hero__title {
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	color: var(--default-white);
+}
+
+.hero__btn {
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--default-white);
+	background: var(--color-accent);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.benefits__title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--accent-dark);
+}
+
+.benefits__dscr {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-text);
+}
+
+.team {
+	background: var(--light-gray);
+}
+
+.team__text {
+	text-align: center;
+}
+
+.team__person {
+	background: var(--default-white);
+}
+
+.footer {
+	background: var(--accent-dark);
+}
+
+.logo__footer {
+	color: var(--light-gray);
+}
+
+.footer__descr {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--light-gray);
+}
+
+.porftfolio__btn {
+	background: var(--light-gray);
+	border: 1px solid var(--light-accent);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--color-accent);
+}
+
+.porftfolio__btn:hover,
+.porftfolio__btn:focus {
+	color: var(--default-white);
+}
