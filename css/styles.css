@@ -111,6 +111,9 @@ img {
 
 .header {
 	border-bottom: 1px solid var(--light-accent);
+}
+
+.header__link {
 	padding: 24px 0;
 }
 
@@ -127,7 +130,6 @@ img {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--color-accent);
-	padding: 10px 0;
 	display: block;
 	margin-right: 76px;
 }
@@ -151,7 +153,6 @@ img {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	padding: 10px 0;
 	display: block;
 }
 
@@ -171,7 +172,6 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-decoration: none;
-	padding: 10px 0;
 	display: block;
 }
 
