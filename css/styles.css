@@ -134,7 +134,7 @@ img {
 	color: var(--accent-dark);
 }
 
-.navigation {
+.nav {
 	display: flex;
 	align-items: center;
 }
