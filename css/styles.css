@@ -273,18 +273,18 @@ img {
 	width: 264px;
 }
 
-.porftfolio {
+.portfolio {
 	padding: 96px 0 120px;
 }
 
-.porftfolio__nav {
+.portfolio__nav {
 	display: flex;
 	justify-content: center;
 	gap: 24px;
 	margin-bottom: 72px;
 }
 
-.porftfolio__btn {
+.portfolio__btn {
 	background: var(--light-gray);
 	border: 1px solid var(--light-accent);
 	font-size: 16px;
@@ -294,13 +294,13 @@ img {
 	padding: 12px 24px;
 }
 
-.porftfolio__btn:hover,
-.porftfolio__btn:focus {
+.portfolio__btn:hover,
+.portfolio__btn:focus {
 	color: var(--default-white);
 	border: 1px solid transparent;
 }
 
-.porftfolio__list {
+.portfolio__list {
 	display: flex;
 	flex-wrap: wrap;
 	column-gap: 24px;
@@ -309,10 +309,10 @@ img {
 }
 
 .portfolio__projects {
-	border: 1px solid var(--light-accent);
 	flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio__descr {
 	padding: 32px 16px;
+	border: 1px solid var(--light-accent);
 }
