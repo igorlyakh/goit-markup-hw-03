@@ -315,4 +315,5 @@ img {
 .portfolio__descr {
 	padding: 32px 16px;
 	border: 1px solid var(--light-accent);
+	border-top: none;
 }
