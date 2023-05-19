@@ -310,7 +310,7 @@ img {
 
 .portfolio__projects {
 	border: 1px solid var(--light-accent);
-	flex-basis: calc((100% - 72px) / 3);
+	flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio__descr {
