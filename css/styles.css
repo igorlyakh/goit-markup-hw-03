@@ -175,6 +175,7 @@ img {
 
 .hero {
 	background: var(--accent-dark);
+	padding: 188px 0;
 }
 
 .hero__title {
