@@ -244,6 +244,10 @@ img {
 	background: var(--accent-dark);
 }
 
+.footer .logo {
+	padding: 16px 0;
+}
+
 .logo__footer {
 	color: var(--light-gray);
 }
@@ -253,6 +257,7 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--light-gray);
+	width: 264px;
 }
 
 .porftfolio__btn {
