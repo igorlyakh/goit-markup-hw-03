@@ -106,6 +106,7 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--color-text);
+	margin-top: 8px;
 }
 
 .header {
@@ -224,13 +225,12 @@ img {
 	background: var(--light-gray);
 }
 
-.team__descr {
+.card__descr {
 	padding: 32px 0;
 }
 
 .team__text {
 	text-align: center;
-	margin-bottom: 8px;
 }
 
 .team__person {
@@ -260,6 +260,13 @@ img {
 	width: 264px;
 }
 
+.porftfolio__nav {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin-bottom: 72px;
+}
+
 .porftfolio__btn {
 	background: var(--light-gray);
 	border: 1px solid var(--light-accent);
@@ -267,9 +274,27 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: var(--color-accent);
+	padding: 12px 24px;
 }
 
 .porftfolio__btn:hover,
 .porftfolio__btn:focus {
 	color: var(--default-white);
+}
+
+.porftfolio__list {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 24px;
+	justify-content: center;
+	row-gap: 48px;
+}
+
+.portfolio__projects {
+	border: 1px solid var(--light-accent);
+	flex-basis: calc((100% - 72px) / 3);
+}
+
+.portfolio__descr {
+	padding: 32px 16px;
 }
