@@ -111,6 +111,7 @@ img {
 
 .header {
 	border-bottom: 1px solid var(--light-accent);
+	padding: 24px 0;
 }
 
 .header > .container {
@@ -126,8 +127,9 @@ img {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--color-accent);
-	padding: 36px 0;
+	padding: 10px 0;
 	display: block;
+	margin-right: 76px;
 }
 
 .logo__end {
@@ -141,7 +143,6 @@ img {
 
 .menu {
 	display: flex;
-	margin-left: 76px;
 	gap: 40px;
 }
 
@@ -150,7 +151,7 @@ img {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	padding: 36px 0;
+	padding: 10px 0;
 	display: block;
 }
 
@@ -170,7 +171,7 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	text-decoration: none;
-	padding: 36px 0;
+	padding: 10px 0;
 	display: block;
 }
 
