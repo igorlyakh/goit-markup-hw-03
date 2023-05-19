@@ -99,6 +99,7 @@ img {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--accent-dark);
+	margin-bottom: 8px;
 }
 
 .descr {
@@ -106,7 +107,6 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--color-text);
-	margin-top: 8px;
 }
 
 .header {
@@ -212,6 +212,7 @@ img {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--accent-dark);
+	margin-bottom: 8px;
 }
 
 .benefits__item {
@@ -219,7 +220,6 @@ img {
 }
 
 .benefits__dscr {
-	margin-top: 8px;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -235,7 +235,7 @@ img {
 }
 
 .card__descr {
-	padding: 32px 0;
+	padding: 32px 16px;
 }
 
 .team__text {
@@ -252,10 +252,13 @@ img {
 
 .footer {
 	background: var(--accent-dark);
+	padding: 100px 0;
 }
 
 .footer .logo {
-	padding: 16px 0;
+	display: inline-block;
+	margin-bottom: 16px;
+	padding: 0;
 }
 
 .logo__footer {
