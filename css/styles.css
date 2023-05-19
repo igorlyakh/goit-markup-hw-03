@@ -113,6 +113,11 @@ img {
 	border-bottom: 1px solid var(--light-accent);
 }
 
+.header > .container {
+	display: flex;
+	align-items: center;
+}
+
 .logo {
 	font-family: var(--header-font);
 	font-weight: 800;
@@ -127,10 +132,6 @@ img {
 
 .logo__end {
 	color: var(--accent-dark);
-}
-
-.header-wrapper {
-	display: flex;
 }
 
 .nav {
