@@ -273,6 +273,10 @@ img {
 	width: 264px;
 }
 
+.porftfolio {
+	padding: 96px 0 120px;
+}
+
 .porftfolio__nav {
 	display: flex;
 	justify-content: center;
@@ -293,6 +297,7 @@ img {
 .porftfolio__btn:hover,
 .porftfolio__btn:focus {
 	color: var(--default-white);
+	border: 1px solid transparent;
 }
 
 .porftfolio__list {
