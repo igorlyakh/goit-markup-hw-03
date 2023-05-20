@@ -228,8 +228,12 @@ img {
 	color: var(--color-text);
 }
 
+.about {
+	padding-top: 0;
+}
+
 .about__item {
-	flex-basis: calc(100% - 24px) / 3;
+	flex-basis: calc((100% - 24px) / 3);
 }
 
 .team {
@@ -261,6 +265,7 @@ img {
 	display: inline-block;
 	margin-bottom: 16px;
 	padding: 0;
+	margin-right: 0;
 }
 
 .logo__footer {
